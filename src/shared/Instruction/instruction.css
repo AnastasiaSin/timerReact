@@ -1,0 +1,26 @@
+.container {
+    width: 83%;
+    margin-bottom: 25px;
+}
+
+.instructionTitle {
+    color: var(--black);
+    font-size: 24px;
+    font-family: 'SF UI Display';
+    font-weight: 700;
+    line-height: 33px;
+}
+.instructionList {
+    list-style: inside;
+}
+.instructionItem {
+    color: var(--black);
+    font-size: 16px;
+    font-family: 'SF UI Display';
+    line-height: 33px;
+    font-weight: 400;
+}
+
+.instructionItem::marker {
+    color: var(--redDarkness);
+}

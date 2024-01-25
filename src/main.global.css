@@ -1,0 +1,125 @@
+@font-face {
+  font-family : 'SF UI Display';
+  font-style  : normal;
+  font-weight : 400;
+  font-display: swap;
+  src         : local('SF-UI-Display-regular'), local('SFUIDisplayRegular'),
+    url("./public/fonts/SFUIDisplay-Regular.woff2") format("woff2"),
+    url("./public/fonts/SFUIDisplay-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family : "SF UI Display";
+  font-style  : normal;
+  font-weight : 300;
+  font-display: swap;
+  src         : local("SF-UI-Display-light"), local("SFUIDisplayLight"),
+    url("./public/fonts/SFUIDisplay-Light.woff2") format("woff2"),
+    url("./public/fonts/SFUIDisplay-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family : "SF UI Display";
+  font-style  : normal;
+  font-weight : 200;
+  font-display: swap;
+  src         : local("SF-UI-Display-Ultralight"), local("SFUIDisplayUltralight"),
+    url("./public/fonts/SFUIDisplay-Ultralight.woff2") format("woff2"),
+    url("./public/fonts/SFUIDisplay-Ultralight.woff") format("woff");
+}
+
+@font-face {
+  font-family : "SF UI Display";
+  font-style  : normal;
+  font-weight : 500;
+  font-display: swap;
+  src         : local("SF-UI-Display-Medium"), local("SFUIDisplayMedium"),
+    url("./public/fonts/SFUIDisplay-Medium.woff2") format("woff2"),
+    url("./public/fonts/SFUIDisplay-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family : "SF UI Display";
+  font-style  : normal;
+  font-weight : 700;
+  font-display: swap;
+  src         : local("SF-UI-Display-Bold"), local("SFUIDisplayBold"),
+    url("./public/fonts/SFUIDisplay-Bold.woff2") format("woff2"),
+    url("./public/fonts/SFUIDisplay-Bold.woff") format("woff");
+}
+
+:root {
+  --black      : #333333;
+  --white      : #ffff;
+  --red        : #DC3E22;
+  --greenLight : #A8B64F;
+  --green41    : #899441;
+  --greyF4     : #F4F4F4;
+  --greyC4     : #C4C4C4;
+  --greyE4     : #E4E4E4;
+  --grey99     : #999999;
+  --redLight   : #EA8979;
+  --redMiddle  : #EE735D;
+  --redDarkness: #B7280F;
+  --yellowLight: #FFDDA9;
+  --yellow     : #FFAE35;
+  --purpleLight: #DFDCFE;
+  --purpleDark : #9C97D7;
+  --blueLight  : #C5F1FF;
+  --blue       : #7FC2D7;
+
+  --bg-header: #ffff;
+  --bg-timer: #F4F4F4;
+  --bg-body: #ffff;
+  --bg-header-shadow: 0px 10px 63px 0px rgba(0, 0, 0, 0.07);
+  
+  
+  --hue: 223;
+	--bg: hsl(var(--hue),10%,90%);
+	--fg: hsl(var(--hue),10%,10%);
+	--primary: hsl(var(--hue),90%,50%);
+	--trans-dur: 0.3s;
+	--trans-timing: cubic-bezier(0.76,0.05,0.24,0.95);
+	--trans-timing-in: cubic-bezier(0.76,0.05,0.86,0.06);
+	--trans-timing-out: cubic-bezier(0.05,0.76,0.06,0.86);
+	font-size: calc(40px + (80 - 40) * (100vw - 320px) / (2560 - 320));
+}
+
+#modal_root {
+  display        : flex;
+  align-items    : center;
+  justify-content: center;
+}
+
+
+body {
+  padding         : 0;
+  margin          : 0;
+  font-size       : 14px;
+  line-height     : 16px;
+  font-family     : 'SF UI Display', sans-serif;
+}
+
+* {
+  color                  : var(--black);
+  box-sizing             : border-box;
+  -webkit-font-smoothing : antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  margin    : 0;
+  padding   : 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding   : 0;
+  border    : 0;
+  background: transparent;
+  cursor    : pointer;
+}

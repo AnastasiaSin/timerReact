@@ -1,0 +1,41 @@
+.container {
+    background-color: var(--bg-timer);
+    width: 50%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 40px;
+    background-color: var(--greyC4);
+}
+
+.headerStart {
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 40px;
+    background-color: var(--red);
+}
+
+.headerBreak {
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 40px;
+    background-color: var(--greenLight);
+}
+
+.task {
+    color: var(--white);
+    font-size: 16px;
+    font-family: 'SF UI Display';
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.pomodoro {
+    color: var(--white);
+    font-size: 16px;
+    font-family: 'SF UI Display';
+    font-weight: 400;
+    line-height: 17px;
+}

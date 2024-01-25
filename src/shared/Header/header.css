@@ -1,0 +1,71 @@
+  /* .header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 23px 80px;
+    background: var(--bg-header);
+    box-shadow: var(--bg-header-shadow)
+  } */
+
+  .header {
+    width: 100%;
+  }
+
+  .container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 23px 80px;
+    background: var(--bg-header);
+    box-shadow: var(--bg-header-shadow)
+  }
+
+ 
+
+  .headerTitle {
+    display: flex;
+    align-items: center;
+  }
+
+  .headerLink {
+    display: flex;
+    align-items: center;
+    transition: all .5s ease 0s;
+  }
+  .headerLink:hover .equalizerIcon path {
+    fill: var(--redDarkness);
+  }
+
+  .headerLink:hover  .statisticsLink {
+    color: var(--redDarkness);
+  }
+
+  .pomodoroTitle {
+    color: var(--red);
+    text-align: center;
+    font-size: 24px;
+    font-family: 'SF UI Display';
+    font-weight: 300;
+    line-height: 24px;
+  }
+
+  .statisticsLink {
+    color: var(--red);
+    font-size: 16px;
+    font-family: 'SF UI Display';
+    line-height: 17px;
+    font-weight: 400;
+    transition: all .5s ease 0s;
+  }
+
+  
+
+  .equalizerIcon path{
+    fill: var(--red);
+    transition: all .5s ease 0s;
+  }
+

@@ -1,0 +1,33 @@
+.currentDay {
+    grid-column     : 1;
+    grid-row        : 1;
+    background-color: var(--greyF4);
+    padding         : 25px;
+}
+
+.day {
+    color      : var(--black);
+    font-family: 'SF UI Display';
+    font-size  : 24px;
+    font-style : normal;
+    font-weight: 700;
+    line-height: 33px;
+}
+
+.data {
+    color      : var(--black);
+    font-family: 'SF UI Display';
+    font-size  : 16px;
+    font-style : normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.work {
+    color      : var(--red);
+    font-family: 'SF UI Display';
+    font-size  : 16px;
+    font-style : normal;
+    font-weight: 700;
+    line-height: 28px;
+}

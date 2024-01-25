@@ -1,0 +1,36 @@
+.container {
+    position: absolute;
+    border: 1px solid var(--greyC4);
+    background-color: var(--white);
+    transition: all .5s ease;
+}
+
+.menuList {
+    
+}
+
+.menuItem {
+    padding: 15px 15px 7.5px 15px;
+    transition: 0.2s ease;
+}
+
+.menuItem:hover {
+    background-color: var(--greyF4);
+}
+
+.triangle {
+    fill: #fff;
+    stroke: #ccc;
+    position: absolute;
+    left: 50%;
+    margin-left: -8px;
+    top: -8px;
+  }
+.menuBtn {
+    display: flex;
+    color: var(--grey99);
+    font-size: 16px;
+    font-family: 'SF UI Display';
+    font-weight: 300;
+    line-height: 17px;
+}

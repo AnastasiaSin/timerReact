@@ -1,0 +1,104 @@
+.btnStart {
+    background-color: var(--greenLight);
+    color           : var(--white);
+    text-align      : center;
+    font-size       : 16px;
+    font-family     : 'SF UI Display';
+    font-weight     : 500;
+    line-height     : 17px;
+    padding         : 15px 50px;
+    margin-right    : 25px;
+    transition      : all .5s ease;
+}
+
+.btnStart:hover {
+    background-color: var(--green41);
+}
+
+.btnStart:disabled {
+    background-color: var(--greyC4);
+}
+
+.btnStop {
+    color      : var(--greyC4);
+    text-align : center;
+    font-size  : 16px;
+    font-family: 'SF UI Display';
+    font-weight: 500;
+    line-height: 17px;
+    padding    : 13px 48px;
+    border     : 2px solid var(--greyC4);
+}
+
+.counterBlock {
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+    margin-top    : 70px;
+    margin-bottom : 107px;
+}
+
+.timer {
+    display: flex;
+}
+
+.time {
+    color       : var(--black);
+    font-size   : 150px;
+    line-height : 200px;
+    font-family : 'SF UI Display';
+    font-weight : 200;
+    margin      : 0;
+    margin-right: 25px;
+}
+
+.startTime {
+    color       : var(--red);
+    font-size   : 150px;
+    line-height : 200px;
+    font-family : 'SF UI Display';
+    font-weight : 200;
+    margin      : 0;
+    margin-right: 25px;
+}
+
+.breakTime {
+    color       : var(--greenLight);
+    font-size   : 150px;
+    line-height : 200px;
+    font-family : 'SF UI Display';
+    font-weight : 200;
+    margin      : 0;
+    margin-right: 25px;
+}
+
+.taskName {
+    color      : var(--black);
+    font-size  : 16px;
+    font-family: 'SF UI Display';
+    line-height: 17px;
+}
+
+.taskNumber {
+    color      : var(--grey99);
+    font-size  : 16px;
+    font-family: 'SF UI Display';
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.taskNameContainer {
+    margin-bottom: 32px;
+}
+
+.taskDash {
+    color: var(--grey99);
+}
+
+.btnIcon circle {
+    transition: all .5s ease;
+}
+
+.btnIcon:hover circle {
+    fill: var(--green41);
+}

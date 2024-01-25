@@ -1,0 +1,67 @@
+.deleteTaskContainer {
+    position        : absolute;
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    left            : 0;
+    top             : 0;
+    right           : 0;
+    bottom          : 0;
+    background-color: rgba(0, 0, 0, 0.50);
+    transition: all .5s ease;
+}
+
+.deleteTaskBlock {
+    position        : relative;
+    display         : flex;
+    flex-direction  : column;
+    align-items     : center;
+    justify-content : center;
+    padding         : 25px 84px;
+    background-color: var(--white);
+}
+
+.deleteTaskX {
+    position: absolute;
+    top     : 12px;
+    right   : 12px;
+    transition: all .5s ease;
+}
+
+.deleteTaskQuestion {
+    color        : var(--black);
+    font-family  : 'SF UI Display';
+    font-size    : 24px;
+    font-style   : normal;
+    font-weight  : 400;
+    line-height  : 17px;
+    margin-bottom: 25px;
+}
+
+.deleteBtn {
+    padding         : 15px 50px;
+    background-color: var(--red);
+    color           : var(--white);
+    text-align      : center;
+    font-family     : "SF UI Display";
+    font-size       : 16px;
+    font-style      : normal;
+    font-weight     : 500;
+    line-height     : 17px;
+    margin-bottom   : 12px;
+    transition: all .5s ease;
+}
+.deleteBtn:hover {
+    background-color: var(--redDarkness);
+}
+
+.deleteBtnCancel {
+    color      : var(--black);
+    font-family: 'SF UI Display';
+    font-size  : 16px;
+    font-style : normal;
+    font-weight: 300;
+    line-height: 17px;
+    border-bottom: 1px solid var(--black);
+    transition: all .5s ease;
+}

@@ -1,0 +1,45 @@
+.stops {
+    grid-column: 4;
+    grid-row: 3;
+    background-color: var(--greyF4);
+    padding: 25px;
+}
+
+.stopsActive {
+    grid-column: 4;
+    grid-row: 3;
+    background-color: #C5F1FF;
+    padding: 25px;
+}
+
+.stopsBlock {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stopsText {
+    display: flex;
+    flex-direction: column;
+}
+
+.stopsTitle {
+    color: var(--black);
+    font-family: 'SF UI Display';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+}
+
+.stopsNumber {
+    color: var(--black);
+    font-family: 'SF UI Display';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.svgActive path {
+ stroke: #7FC2D7;
+}

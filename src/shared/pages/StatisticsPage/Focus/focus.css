@@ -1,0 +1,45 @@
+.focus {
+    grid-column: 1/3;
+    grid-row: 3;
+    background-color: var(--greyF4);
+    padding: 25px;
+}
+
+.focus {
+    grid-column: 1/3;
+    grid-row: 3;
+    background-color: #FFDDA9;
+    padding: 25px;
+}
+
+.focusBlock {
+    display: flex;
+    justify-content: space-between;
+}
+
+.focusText {
+    display: flex;
+    flex-direction: column;
+}
+
+.focusTitle {
+    color: var(--black);
+    font-family: 'SF UI Display';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+}
+
+.focusNumber {
+    color: var(--black);
+    font-family: 'SF UI Display';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.focusImg path {
+    stroke: #FFAE35;
+}
