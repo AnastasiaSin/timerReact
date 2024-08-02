@@ -1,6 +1,7 @@
 {
   "name": "reactapp",
   "version": "1.0.0",
+  "homepage": "https://AnastasiaSin.github.io/timerReact",
   "description": "",
   "main": "webpack.config.js",
   "author": "",
